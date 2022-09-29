@@ -5,7 +5,7 @@ public class Date {
 	private int day;
 	private int year;
 	
-	private static final int[]daysPerMonth= {0,31,28,31,30,31,30,31,30,31,30,31};
+	private static final int[]daysPerMonth= {0,31,28,31,30,31,30,31,30,31,30,31}; //final=> constant , can be used with anything in Java.
 	
 	public Date (int month, int day, int year)
 	{
